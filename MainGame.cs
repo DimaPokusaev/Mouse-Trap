@@ -261,8 +261,8 @@ namespace MouseTrap
                 {
                     case Keys.N:
                         Form1.win = 0;
-                        int yvalue = Form1.randGen.Next(2, 6);
-                        computerLocation.loc = new Point(Form1.randGen.Next(2,6), yvalue);
+                        int yvalue = Form1.randGen.Next(3, 6);
+                        computerLocation.loc = new Point(Form1.randGen.Next(3,6), yvalue);
                         if(yvalue%2 == 0)
                         {
                             computerLocation.shift = true;
